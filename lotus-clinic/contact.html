@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Lotus Dental & Facial Aesthetics Clinic in Hyderabad to book your appointment.">
+    <title>Lotus Clinic | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Lotus</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="contact-btn">090000 46344</div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header" style="background-image: url('images/hero_bg.png')">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>We're here to help you achieve your aesthetic goals.</p>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2 class="section-title">Visit Us</h2>
+                <div class="info-item">
+                    <strong>Address:</strong>
+                    <p>Above 4 chillies restaurant, indraprasth colony, Osmania University Rd, near Osmania university, Vidya Nagar, Hyderabad, Telangana 500044</p>
+                </div>
+                <div class="info-item">
+                    <strong>Hours:</strong>
+                    <p>Open · Closes 9 pm</p>
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong>
+                    <p>090000 46344</p>
+                </div>
+                
+                <!-- Map Placeholder -->
+                <div class="map-placeholder" style="margin-top: 30px; height: 200px; background: #EEE; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #888;">
+                    <p>[ Interactive Map Integration ]</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Request an Appointment</h3>
+                <form id="booking-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <select required>
+                        <option value="" disabled selected>Select Service</option>
+                        <option value="dentistry">Dentistry</option>
+                        <option value="cosmetology">Cosmetology</option>
+                        <option value="hydrafacial">HydraFacial</option>
+                    </select>
+                    <textarea placeholder="Tell us about your goals..." rows="4" style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid #DDD; border-radius: 4px; font-family: var(--font-body); font-size: 1rem; resize: vertical;"></textarea>
+                    <button type="submit" class="cta-btn" style="opacity: 1; transform: translateY(0); width: 100%;">Submit Request</button>
+                    <div id="form-message" style="display: none; margin-top: 15px; color: var(--primary-color); font-weight: 600; text-align: center;">Thank you! We will contact you shortly.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lotus Dental & Facial Aesthetics Clinic. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
